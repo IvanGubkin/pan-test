@@ -1,6 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/formular');
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Formular', sans-serif;
 }
 
 /* Variables */
@@ -55,4 +58,5 @@ header {
 
 .header_button:hover{
     box-shadow: 0px 10px 20px 0px rgba(255, 45, 35, 0.3);
+    cursor: pointer;
 }
