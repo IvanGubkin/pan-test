@@ -59,3 +59,32 @@ header {
   box-shadow: 0px 10px 20px 0px rgba(255, 45, 35, 0.3);
   cursor: pointer;
 }
+
+
+/* Footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 38.5px 190px;
+}
+.footer_address{
+  max-width: 286px;
+  color: var(--color-black_light);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_tel{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-black_light);
+}
+
+.footer_email{
+  color: var(--color-red);
+  text-underline-offset: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
